@@ -99,7 +99,7 @@ Name of the stanza to check.
 
 =item B<-O>, B<--output> OUTPUT_FORMAT
 
-The output format. Supported outputs are: C<human>, C<json> and C<nagios> (default).
+The output format. Supported outputs are: C<human>, C<json>, C<nagios> and C<netxms> (default).
 
 =item B<-C>, B<--command> FILE
 
@@ -136,7 +136,7 @@ Show this help page.
 
 my %args = (
     'command' => 'pgbackrest',
-    'output' => 'nagios',
+    'output' => 'netxms',
     'wal-segsize' => '16MB',
     'default-pgbackrest-config-file' => '/etc/pgbackrest.conf',
 );
